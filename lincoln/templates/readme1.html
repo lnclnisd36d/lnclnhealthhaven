@@ -1,0 +1,139 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+   <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- site metas -->
+    <title>Read More</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <!-- favicon -->
+    <link rel="icon" href="{% static 'images/fevicon.png' %}" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/jquery.mCustomScrollbar.min.css' %}">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
+<h2 class="highest_text">Providing the Highest Quality Health Care</h2>
+<hr>
+                    <p class="lorem_text"><strong>Lincoln Health Haven is more than just a hospital – it’s a community cornerstone</strong> where patient care meets excellence. Established over a decade ago, our hospital has been dedicated to offering unparalleled medical services with a focus on compassionate care and innovation. Our mission is to ensure that every patient receives comprehensive, personalized care that meets their unique needs. We strive to create a healing environment where patients feel safe, cared for, and supported.</p>
+                    <p class="lorem_text"><strong>State-of-the-Art Facilities</strong>: Our hospital is equipped with the latest medical technology. From advanced diagnostic imaging to minimally invasive surgical techniques, we offer a full spectrum of medical services. Our departments include Cardiology, Oncology, Pediatrics, Orthopedics, Neurology, and more. Each department is staffed with highly trained specialists committed to providing the best possible outcomes.</p>
+                    <p class="lorem_text"><strong>Holistic Approach to Health Care</strong>: We believe that health care extends beyond treating illnesses. Our holistic approach focuses on the overall well-being of our patients, encompassing physical, emotional, and mental health. We offer wellness programs and support services designed to promote healthy living and prevent illness. Our patient education initiatives empower individuals with the knowledge they need.</p>
+                    <p class="lorem_text"><strong>Dedicated Healthcare Professionals</strong>: Our team includes doctors, nurses, therapists, and support staff who work collaboratively to ensure high-quality care. Our experts are skilled, experienced, compassionate, and empathetic. Our staff is committed to continuous learning and staying abreast of the latest medical advancements.</p>
+                    <p class="lorem_text"><strong>Community Engagement</strong>: We are actively involved in various outreach programs aimed at improving community health. From free health screenings to educational workshops, we are dedicated to making a positive impact. Our partnerships with local organizations and schools enable us to extend our reach and provide valuable health resources to underserved populations.</p>
+                    <p class="lorem_text"><strong>Recognized for Excellence</strong>: Our commitment to excellence has been recognized through numerous awards and accreditations. We take pride in our achievements, but our greatest reward is the trust and loyalty of our patients. We are always striving to exceed expectations and set new standards in healthcare.</p>
+                    <p class="lorem_text"><strong>Future Vision</strong>: Looking towards the future, Lincoln Health Haven continues to innovate and expand our services. Our vision is to be a leader in healthcare, known for exceptional quality of care, advanced medical treatments, and compassionate approach. We foster a culture of excellence with a shared goal of improving patient health and well-being.</p>
+                    <p class="lorem_text"><strong>Join Us</strong>: Join us on our journey towards better health and wellness. Whether you’re seeking routine medical care, specialized treatment, or support services, trust Lincoln Health Haven to be there for you every step of the way. Together, we can achieve a healthier, brighter future.</p>
+
+    <!-- footer section start -->
+<div class="info_section layout_padding">
+    <div class="container">
+        <div class="info_content">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <h5>Lincoln Health Haven</h5>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'about' %}">About Us</a></li>
+                            <li><a href="{% url 'blog' %}">Blog</a></li>
+                            <li><a href="{% url 'doctor' %}">Doctors</a></li>
+                            <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                            <li><a href="{% url 'departments' %}">Departments</a></li>
+                        </ul>
+                        <ul class="ml-3 ml-md-5">
+                            <li><a href="#">Cancer Oncology</a></li>
+                            <li><a href="#">Dental Surgery</a></li>
+                            <li><a href="#">Diagnose & Research</a></li>
+                            <li><a href="#">Drug / Medicines</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <h5>Our Services</h5>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Departments</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <h5>Departments</h5>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li><a href="#">Cancer Oncology</a></li>
+                            <li><a href="#">Dental Surgery</a></li>
+                            <li><a href="#">Diagnose & Research</a></li>
+                            <li><a href="#">Drug / Medicines</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+                <div class="social-box">
+                    <a href="#"><img src="{% static 'images/fb-icon.png' %}" alt="Facebook" /></a>
+                    <a href="#"><img src="{% static 'images/twitter-icon.png' %}" alt="Twitter" /></a>
+                    <a href="#"><img src="{% static 'images/linkedin-icon.png' %}" alt="LinkedIn" /></a>
+                    <a href="#"><img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" /></a>
+                </div>
+                <div class="form_container mt-5">
+                    <form action="">
+                        <label for="subscribeMail">Newsletter</label>
+                        <input type="email" placeholder="Enter your email" id="subscribeMail" />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer section end -->
+
+
+    <!-- copyright section start -->
+<div class="copyright_section">
+    <div class="container">
+        <p class="copyright">2025 All Rights Reserved. Designed by <a href="https://html.design">Lincoln Health Haven</a></p>
+    </div>
+</div>
+<!-- copyright section end -->
+
+<!-- Javascript files-->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+<script src="{% static 'js/plugin.js' %}"></script>
+<!-- sidebar -->
+<script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<!-- javascript -->
+<script src="{% static 'js/owl.carousel.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+</html>

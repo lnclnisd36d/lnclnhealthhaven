@@ -1,0 +1,158 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- site metas -->
+    <title>Departments</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <!-- favicon -->
+    <link rel="icon" href="{% static 'images/fevicon.png' %}" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/jquery.mCustomScrollbar.min.css' %}">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
+<h2>Cardiology Department</h2>
+<p class="ipsum_text">Our Cardiology Department is at the forefront of heart health. We offer advanced diagnostic and treatment options for cardiovascular diseases, including coronary artery disease, heart failure, arrhythmias, and more. Our cardiologists work closely with patients to develop personalized treatment plans that include lifestyle modifications, medication management, and, when necessary, interventional procedures such as angioplasty and stenting.</p>
+
+<h2>Oncology Department</h2>
+<p class="ipsum_text">The Oncology Department at Lincoln Health Haven is committed to providing comprehensive cancer care. Our team of oncologists, nurses, and support staff offer a multidisciplinary approach to cancer treatment, including surgery, chemotherapy, radiation therapy, and immunotherapy. We also provide supportive care services such as nutritional counseling, pain management, and psychological support to help patients and their families navigate their cancer journey.</p>
+
+<h2>Pediatrics Department</h2>
+<p class="ipsum_text">Our Pediatrics Department is dedicated to the health and well-being of children from birth through adolescence. We offer a wide range of services, including routine check-ups, immunizations, growth and development assessments, and treatment for acute and chronic illnesses. Our pediatricians are compassionate and experienced, ensuring that each child receives the highest standard of care in a child-friendly environment.</p>
+
+<h2>Orthopedics Department</h2>
+<p class="ipsum_text">The Orthopedics Department specializes in the diagnosis, treatment, and rehabilitation of musculoskeletal conditions. Our orthopedic surgeons are experts in joint replacement, sports medicine, fracture care, and minimally invasive surgical techniques. We offer comprehensive rehabilitation services to help patients recover and regain their mobility and strength.</p>
+
+<h2>Neurology Department</h2>
+<p class="ipsum_text">Our Neurology Department provides specialized care for patients with neurological disorders, including stroke, epilepsy, multiple sclerosis, Parkinson's disease, and migraines. Our neurologists use advanced diagnostic tools and treatment options to manage and treat neurological conditions, improving the quality of life for our patients.</p>
+
+<h2>Emergency Department</h2>
+<p class="ipsum_text">The Emergency Department at Lincoln Health Haven is equipped to handle medical emergencies 24/7. Our team of emergency physicians, nurses, and support staff are trained to provide rapid and effective care for a wide range of medical conditions, from minor injuries to life-threatening emergencies. We are committed to delivering timely and compassionate care to all patients in need.</p>
+
+<h2>Women's Health Department</h2>
+<p class="ipsum_text">Our Women's Health Department focuses on the unique health needs of women. We offer comprehensive gynecological and obstetrical services, including prenatal care, labor and delivery, fertility treatments, and menopause management. Our team of specialists is dedicated to providing personalized and compassionate care to women at every stage of life.</p>
+
+<h2>Radiology Department</h2>
+<p class="ipsum_text">The Radiology Department at Lincoln Health Haven is equipped with the latest imaging technology, including MRI, CT scans, X-rays, and ultrasound. Our radiologists are skilled in interpreting medical images to diagnose a wide range of conditions. We work closely with other departments to provide accurate and timely diagnostic information to guide patient care.</p>
+
+<h2>Rehabilitation Department</h2>
+<p class="ipsum_text">Our Rehabilitation Department offers a variety of physical, occupational, and speech therapy services to help patients recover from injuries, surgeries, and medical conditions. Our therapists work with patients to develop individualized treatment plans aimed at improving mobility, strength, and functional independence.</p>
+
+<p class="ipsum_text">At Lincoln Health Haven, we are committed to providing the highest quality care across all our departments. Our multidisciplinary approach ensures that each patient receives comprehensive and coordinated care tailored to their specific needs. We strive to create a healing environment where patients feel supported and empowered on their journey to better health.</p>
+
+  <!-- footer section start -->
+<div class="info_section layout_padding">
+    <div class="container">
+        <div class="info_content">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <h5>Lincoln Health Haven</h5>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'about' %}">About Us</a></li>
+                            <li><a href="{% url 'blog' %}">Blog</a></li>
+                            <li><a href="{% url 'doctor' %}">Doctors</a></li>
+                            <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                            <li><a href="{% url 'departments' %}">Departments</a></li>
+                        </ul>
+                        <ul class="ml-3 ml-md-5">
+                            <li><a href="#">Cancer Oncology</a></li>
+                            <li><a href="#">Dental Surgery</a></li>
+                            <li><a href="#">Diagnose & Research</a></li>
+                            <li><a href="#">Drug / Medicines</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <h5>Our Services</h5>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Departments</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <h5>Departments</h5>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li><a href="#">Cancer Oncology</a></li>
+                            <li><a href="#">Dental Surgery</a></li>
+                            <li><a href="#">Diagnose & Research</a></li>
+                            <li><a href="#">Drug / Medicines</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+                <div class="social-box">
+                    <a href="#"><img src="{% static 'images/fb-icon.png' %}" alt="Facebook" /></a>
+                    <a href="#"><img src="{% static 'images/twitter-icon.png' %}" alt="Twitter" /></a>
+                    <a href="#"><img src="{% static 'images/linkedin-icon.png' %}" alt="LinkedIn" /></a>
+                    <a href="#"><img src="{% static 'images/instagram-icon.png' %}" alt="Instagram" /></a>
+                </div>
+                <div class="form_container mt-5">
+                    <form action="">
+                        <label for="subscribeMail">Newsletter</label>
+                        <input type="email" placeholder="Enter your email" id="subscribeMail" />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer section end -->
+
+
+    <!-- copyright section start -->
+<div class="copyright_section">
+    <div class="container">
+        <p class="copyright">2025 All Rights Reserved. Designed by <a href="https://html.design">Lincoln Health Haven</a></p>
+    </div>
+</div>
+<!-- copyright section end -->
+
+<!-- Javascript files-->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+<script src="{% static 'js/plugin.js' %}"></script>
+<!-- sidebar -->
+<script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<!-- javascript -->
+<script src="{% static 'js/owl.carousel.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
